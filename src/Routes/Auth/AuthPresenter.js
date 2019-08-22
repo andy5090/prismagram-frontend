@@ -65,7 +65,7 @@ export default ({
             <title>Log In | Prismagram</title>
           </Helmet>
           <form onSubmit={onSubmit}>
-            <Input placeholder={"Username"} {...username} />
+            <Input placeholder={"Email"} {...email} type="email" />
             <Button text={"Log in"} />
           </form>
         </>
